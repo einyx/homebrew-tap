@@ -2,27 +2,27 @@ class Tkr < Formula
   desc "Token-optimized CLI proxy for LLM development workflows"
   homepage "https://github.com/einyx/tkr"
   license "Apache-2.0"
-  version "0.2.13"
+  version "0.2.14"
 
   on_macos do
     on_arm do
       url "https://github.com/einyx/tkr/releases/download/v#{version}/tkr-aarch64-apple-darwin.tar.gz"
-      sha256 "cd5cff12db43ed20a5ad9b9d280ae527963011090b12cebdea9c7cd4402c238c"
+      sha256 "5b3951c87eb384ccef0dd0088bdf07c1dbe290d6e10c240555a42f527feacdc3"
     end
     on_intel do
       url "https://github.com/einyx/tkr/releases/download/v#{version}/tkr-x86_64-apple-darwin.tar.gz"
-      sha256 "ffbac0745787d837b0c10a466d98b9ec5ee0a96fe014a4f18849969aefc943fd"
+      sha256 "9c65b46fb691981a338f2f0af7e92dd70a894fc8202f97411d686996fad7130d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/einyx/tkr/releases/download/v#{version}/tkr-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6d45bc34a6784f9aa9d0ee0dffbd367eca2ae9604661520592cea6d668051ee6"
+      sha256 "c103d4e1666921d9b0b7ed4e4df28972d505c3220c08d842a4f3615e77bf1ae4"
     end
     on_intel do
       url "https://github.com/einyx/tkr/releases/download/v#{version}/tkr-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b43648108f52bbcb87d7ec052e8fb23c4c24cbe8a510ab5d9019e637ac9d4df1"
+      sha256 "2d0d7ca9ec6c58a93fe3cfd0381a5528667632c153df29e7ee28a5e70d51360a"
     end
   end
 
